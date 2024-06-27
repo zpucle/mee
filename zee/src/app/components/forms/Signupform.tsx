@@ -74,7 +74,7 @@ const onFinish = (values: any) => {
           <Button type="primary" htmlType="submit">
             Register
           </Button>
-          Or <a href="http://localhost:3000/auth/signin">Login</a>
+          Or <a href="http://localhost:3000/auth/signin">Signup</a>
         </Form.Item>
       </Form>
       <div>

@@ -58,7 +58,7 @@ export default function Signinform() {
             Log in
           </Button>
 
-              Or <a href="http://localhost:3000/auth/signup">Register now</a>
+              Or <a href="http://localhost:3000/auth/signup">Signin</a>
            
         </Form.Item>
       </Form>
