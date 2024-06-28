@@ -4,7 +4,8 @@ import { Button, Card, Layout } from 'antd';
 import Link from 'next/link';
 
 const Home = () => (
-  <div className="container">
+  <div style={{ backgroundImage: 'url("./images/1.jpg")', backgroundSize: 'cover', minHeight: '100vh', display: 'flex'}} 
+  className="container">
     <div className="card">
       <h1 style={{ marginRight: '1rem', padding: '20px', position: 'absolute', textAlign: 'center', top: '40%', left: '36%',  }}>
         Welcome to zee App
@@ -26,11 +27,6 @@ const Home = () => (
      </h2>
      </div>
       
-      <Layout 
-      style={{ backgroundImage: 'url("./images/1.jpg")', backgroundSize: 'cover', minHeight: '100vh', display: 'flex'}} 
-      >
-      </Layout>
-
     </div>
   </div>
 );

@@ -12,7 +12,14 @@ const onFinish = (values: any) => {
  
 
   return (
-  <div
+  <div  style={{
+    backgroundImage: 'url("/images/1.jpg")',
+    backgroundSize: 'cover',
+    minHeight: '100vh',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  }}
     >
     
     
